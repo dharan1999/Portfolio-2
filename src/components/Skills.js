@@ -34,24 +34,25 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2>{"<Skills />"}</h2>
+                        <p>Building beautiful UIs in React.js, designing scalable back-ends in Node.js, and processing big data with Apache Spark and MongoDB - I'm a full-stack web developer with a wide-ranging skillset. <p>Drawing on my experience working with Python in real-world projects and honing my coding skills in Java through competitive programming, I bring a well-rounded approach to building applications that is both efficient and effective.</p></p>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>React.js / Node.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Mongodb / Apache Spark</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>Python</h5>
                             </div>
                         </Carousel>
                     </div>

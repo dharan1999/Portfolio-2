@@ -95,7 +95,8 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 5%;
+    margin-left: 50px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -339,7 +340,89 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+/************Experience Css ***********/
+.experience{
+  padding: 80px 0;
+  position: relative;
+  /* background: linear-gradient(to right, #fc5c7d, #6a82fb); */
+  background-image: url('./assets/img/try.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
+.background-tint {
+  background-color: rgba(200,100,0,.5);
+  background-blend-mode: multiply;
+  
+}
+.experience h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.experience p {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.experience .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.experience .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
+.experience .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+.experience .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.experience .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.experience .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.nav-link.experiences-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+.nav-link.experiences-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link.experiences-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -606,13 +689,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
-.footer img {
-  width: 26%;
+.footer Col{
+  display: flex;
+  flex-wrap: wrap;
 }
+.footer img {
+  width: 15%;
+  margin-top: 15px;
+  padding-left: 25px;
+  float: left;
+  /* max-width: 100%; */
+}
+
+.footer h3{
+  float: right;
+  width: 82%;
+  margin-top: 55px;
+}
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+  
+}
+.footer a img{
+  width: 10%;
 }
