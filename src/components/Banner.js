@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`HI! I'm Dharan`} </h1>
                   <h2><span className="txt-rotate" dataPeriod="50000" data-rotate='[ "Software Developer", "Web Developer", "Forex Trader" ]'><span className="wrap">{text}</span></span></h2>
                   <p>From coding to grooving, spiking to trading, I'm a software developer with a passion for it all. Building stunning web apps is just the beginning - I bring a melody to music, power to volleyball, and strategy to trading. Explore my portfolio and discover how my diverse interests bring a unique edge to my work.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>

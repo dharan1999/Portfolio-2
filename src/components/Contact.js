@@ -59,8 +59,17 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In {"<Touch />"}</h2>
-                <form onSubmit={handleSubmit}>
+                <h2>{"<About me />"}</h2>
+                <h8>As a highly motivated Masters' student in Computer Science, I am driven to use my technical expertise to create meaningful change in society. My journey began with a deep determination to learn coding right after high school, and despite initial setbacks, I have honed my skills in web app and software design, becoming proficient in a wide range of programming languages and frameworks, including HTML, CSS, Javascript, React.js, Express.js, Mongodb, Apache Spark, React Native, Java, Python, C++. In addition to that, I always a keen interest working in projects revolving around Machine Learning, Natural language Processing, 
+
+<br />
+<br />
+Beyond my technical abilities, I also have a passion for forex trading, which has taught me important lessons in patience, strategy, and risk management. These skills have proven invaluable as I tackle new challenges in the world of computer science, always searching for innovative solutions and creative opportunities.
+<br />
+<br />
+ Whether working independently or as part of a team, I am confident in my ability to deliver outstanding results and make a real difference in the world. So let's connect and explore how we can work together to create something truly extraordinary.
+</h8>
+                {/* <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -85,7 +94,8 @@ export const Contact = () => {
                       </Col>
                     }
                   </Row>
-                </form>
+                </form> */}
+                
               </div>}
             </TrackVisibility>
           </Col>
@@ -94,3 +104,6 @@ export const Contact = () => {
     </section>
   )
 }
+
+
+

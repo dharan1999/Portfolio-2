@@ -25,7 +25,7 @@ export const Experience = () => {
       imgUrl: projImg2,
       companyName: "CHARUSAT UNIVERSITY",
       period: "June 2020 - Aug 2020",
-      desc: "Created an Email SPAM-HAM detector and explored 5 different classifiers generated through techniques likr TF-IDF, MultinomialDB, ANN,RNN and LR-SVM."
+      desc: "Created an Email SPAM-HAM detector and explored 5 different classifiers generated through techniques like TF-IDF, MultinomialDB, ANN,RNN and LR-SVM."
     },
     {
       title: "LoveMySkool",

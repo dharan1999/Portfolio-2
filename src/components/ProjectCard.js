@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, period,desc,companyNam
           <span>{period}</span>
         </div>
       </div>
-     <div> <h6>{">"}</h6><h7> {desc}  </h7></div>
+     <div> <h4>{"> "}{title}</h4><h7> {desc}  </h7></div>
       {/* <div style={{textAlign:"center",fontWeight:"bold" ,fontSize:"30x"}}> <h4> {companyName} </h4> </div> */}
     </Col>
     
